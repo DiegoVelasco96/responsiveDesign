@@ -15,6 +15,7 @@ function mediaQuery() {
     $burguerButton.removeEventListener('touchstart', toggleMenu)
   }
 }
+
 mediaQuery();
 
 var bLazy = new Blazy({

@@ -101,6 +101,7 @@ input:focus, textarea:focus {
 .background {
   background-image: url('../images/background.png');
   background-size: cover;
+  background-color: #466173;
 }
 
 .button {
@@ -314,5 +315,6 @@ input:focus, textarea:focus {
   top: 20px;
   cursor: pointer;
   z-index: 3;
+  color: white;
   display: none;
 }

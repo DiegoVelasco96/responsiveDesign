@@ -40,6 +40,15 @@
     padding: 0;
   }
   /*Guitarras*/
+  /*Precios*/
+  .tabla {
+    margin: 50px 10px;
+  }
+  .tabla .contenedor {
+    overflow: auto;
+    border: 1px solid #273b47;
+  }
+  /*Precios*/
 }
 
 @media screen and (max-width: 767px) {
@@ -99,6 +108,12 @@
   .portada .contenedor {
     position: static;
   }
+  .header {
+    position: static;
+  }
+  .header .contenedor {
+    position: static;
+  }
   .burguer-button {
     display: block;
   }
@@ -153,5 +168,8 @@
   /*Guitarra*/
 }
 
-
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    background-image: url('../images/background2x.png');
+  }
 }
