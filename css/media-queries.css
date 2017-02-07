@@ -58,6 +58,10 @@
   }
   .contacto {
     margin: 0 auto;
+    display: block;
+  }
+  .contacto a {
+    display: block;
   }
   .formulario {
     display: block;
@@ -71,9 +75,15 @@
   .col1 {
     margin: 0;
   }
+  input[type="text"] {
+    margin-bottom: 20px;
+  }
   input[type="text"], input[type="email"] {
-    font-size: 16px;
+    font-size: 20px;
     padding: 5px;
+  }
+  .sexo label {
+    display: block;
   }
   textarea {
     width: 100%;
@@ -185,4 +195,9 @@
   .background {
     background-image: url('../images/background2x.png');
   }
+}
+
+
+}
+
 }
